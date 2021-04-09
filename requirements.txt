@@ -6,9 +6,9 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.3
 joblib==1.0.1
 matplotlib==3.3.4
-pandas==1.0.1
-py==1.8.1
+pandas==1.2.3
+py==1.10.0
 scikit-learn==0.24.0
-scipy==1.4.1
-seaborn==0.10.0
-urllib3==1.24.3
+scipy==1.6.2
+seaborn==0.11.1
+urllib3==1.25.4
