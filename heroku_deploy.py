@@ -95,7 +95,6 @@ def main():
         v_age = std_num[0,:]
         v_avg_glucose_level = std_num[1,:]
         v_bmi = std_num[2,:]
-        std_value(v_num)
 
 
         # Compile the data for Forecasting
