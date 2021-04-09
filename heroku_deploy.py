@@ -102,7 +102,7 @@ def main():
         input_data = np.array(input_data).reshape(1,-1)
 
         # Forecasting
-        if st.button('Forecast!'):
+        if st.button('Predict !'):
             predictor = pickle.load(open('stroke_predictor.pkl', 'rb'))
             predicting = predictor.predict(input_data)
             predict_result = (int(predicting))
