@@ -89,16 +89,11 @@ def main():
         v_gender = get_val(gender, gender_label)
         v_work_type = get_val(work_type,work_type_label)
         v_residence_type = get_val(residence_type,residence_type_label)
-        v_num = [age,avg_glucose_level,bmi]
-        v_num = np.array(v_num).reshape(-1,1)
-        std_num = StandardScaler().fit_transform(v_num)
-        v_age = std_num[0,:]
-        v_avg_glucose_level = std_num[1,:]
-        v_bmi = std_num[2,:]
+        v_avg_glucose_level = np.log(avg_glucose_level)
 
 
         # Compile the data for Forecasting
-        input_data = [v_age,v_heart_disease,v_hypertension,v_avg_glucose_level,v_smoking_status,v_bmi,v_ever_married,v_gender,v_work_type,v_residence_type]
+        input_data = [age,v_heart_disease,v_hypertension,v_avg_glucose_level,v_smoking_status,bmi,v_ever_married,v_gender,v_work_type,v_residence_type]
         input_data = np.array(input_data).reshape(1,-1)
 
         # Forecasting
