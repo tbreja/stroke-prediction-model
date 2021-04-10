@@ -98,7 +98,7 @@ def main():
 
         # Forecasting
         if st.button('Predict !'):
-            predictor = pickle.load(open('stroke_predictor.sav', 'rb'))
+            predictor = pickle.load(open('stoke_predictor.sav', 'rb'))
             predicting = predictor.predict(input_data)
             predict_result = (int(predicting))
             predict_proba = predictor.predict_proba(input_data)[:,0]
