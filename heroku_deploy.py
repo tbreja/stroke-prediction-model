@@ -93,7 +93,7 @@ def main():
 
 
         # Compile the data for Forecasting
-        input_data = [age,v_heart_disease,v_hypertension,v_avg_glucose_level,v_smoking_status,bmi,v_ever_married,v_gender,v_work_type,v_residence_type]
+        input_data = [v_gender,age,v_hypertension,v_heart_disease,v_ever_married,v_work_type,v_residence_type,v_avg_glucose_level,bmi,v_smoking_status]
         input_data = np.array(input_data).reshape(1,-1)
 
         # Forecasting
