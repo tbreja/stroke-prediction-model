@@ -11,7 +11,7 @@ N/A in other input fields imply that it is not applicable.
 
 The Objective of this Project is to Create a model with 100 % F1 Score and AUC = 1, so the model is perfectly able to distinguish between positive class (have stroke) and negative class (not have stroke). If you want to see more detail and final deployment of this project, click the link below :
 
-App Link = 
+App Link = https://stroke-predictor-app.herokuapp.com/
 
 Let's Connect 
 
