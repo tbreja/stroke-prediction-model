@@ -55,7 +55,7 @@ Linkedin = 'https://www.linkedin.com/in/tbreja/'
 def main():
     """Stroke Prediction Model"""  
     st.title('Stroke Predictor App')
-    st.write('By : Tubagus Moh Reja')
+    st.write('By : Tubagus Moh Reja & Dhafinda Diakinan')
 
     # Menu
     menu = ['Prediction', 'About this App']
