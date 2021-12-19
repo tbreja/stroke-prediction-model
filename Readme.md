@@ -15,4 +15,5 @@ App Link = https://stroke-predictor-app.herokuapp.com/
 
 Let's Connect 
 
-LinkedIn = https//www.linkedin.com/in/tbreja
+LinkedIn = https://www.linkedin.com/in/tbreja
+           https://www.linkedin.com/in/DhafindaDiakinan
